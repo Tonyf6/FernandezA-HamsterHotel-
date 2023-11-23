@@ -1,67 +1,10 @@
 
 
-/* body{background: #FFFFFF;font-family: 'Oswald', sans-serif;font-size: 15px;font-weight: 400; line-height: 1.5em;}
-                .inner_main_menu {margin: 0 auto; width: 1170px;}    
-                .inner_main_menu ul{margin: 0; padding: 80px 0 0; list-style: none;text-align: right;}    
-                .inner_main_menu ul li{float: none; display: inline-block;position: relative}    
-                .inner_main_menu ul li:nth-child(1){float: left;}    
-                .inner_main_menu ul li:nth-child(2){float: left;}    
-                .inner_main_menu ul li:nth-child(3){float: left;}    
-                .inner_main_menu ul li a{color: #FFFFFF; font-size: 20px; text-transform: uppercase;text-decoration: none; display: block;padding: 10px 20px;}    
-                .inner_main_menu ul li a:hover{color: #262626}  
-           
-                .slicknav_btn {top: 35px;}
-                #main_menu{width: 100%; position: relative;}
-                .logo_area{width: 300px; height: 300px; position: absolute; left: 50%; top: 0; content: ""; margin-left:-150px; text-align: center; }
-                @media only screen and (min-width: 200px) and (max-width: 767px) { 
-                    .slicknav_menu{display: block;}
-                    .inner_main_menu{display: none;}
-                    .logo_area {height: auto;left: 0;margin-left: 0;position: relative;top: 0;width: 130px;}
-                    .logo_area img{height: auto;width: 100%;}
-    
-    
-                } */
-
 
 html * {
     margin: 0;
     font-family: normal normal normal 45px/57px Dosis;
   }
-  
-  /* .topnav {
-    position: relative;
-    overflow: hidden;
-    background-color: #000324;
-  }
-  
-  .topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  
-  .topnav a.active {
-    background-color: #04AA6D;
-    color: white;
-  }
-  
-  .topnav-centered a {
-    float: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  .topnav-right {
-    float: right;
-  } */
-
-
 
 
   .gfg {
@@ -131,9 +74,9 @@ img {
 }
 
 .customw{
-  width:50%;
+  width:20%;
   background-color: #000324;
-  padding:20px;
+  
 }
 
 .wrapper{
@@ -153,4 +96,52 @@ footer{
 
 .valetText{
   text-size-adjust: 20px;
+}
+
+.bottomBox{
+
+  width: 120%;
+  height: 15%;
+  
+  background: #000324 0% 0% no-repeat padding-box;
+  opacity: 1;
+  }
+
+
+
+  .resRoomMarPad {
+    margin: 6%;
+    padding-left: 6%;
+    padding-right: 6%;
+
+}
+
+.resRoomBoxMarPad {
+    margin: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+}
+
+.resRoomBg {
+    background-color: #000324;
+}
+
+.resRoomImg {
+    background-image: url("/media/hamsterreserve.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 10%;
+    background-clip: 10%;
+}
+
+.resImgInvis {
+    opacity: 0;
+}
+
+.resBtn {
+    border-style: none !important;
+    border-radius: 0% !important;
+    padding: 3px 50px;
+    height: 30px;
 }
